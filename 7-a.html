@@ -1,0 +1,46 @@
+<center>
+    <h1>Task 7: Greatest Number (Simple Function)</h1>
+    <hr>
+    <hr>
+        <script type="text/javascript">
+            function greatest(){
+            var a = parseInt(prompt("Enter Value of A: "));
+            var b = parseInt(prompt("Enter Value of B: "));
+            var c = parseInt(prompt("Enter Value of C: "));
+
+            console.log(a);
+            console.log(b);
+            console.log(c);
+            
+            document.write("<h2 style = 'color:DarkCyan'> The Value of A is "+a+"</h2>");
+            document.write("<h2 style = 'color:CornflowerBlue'> The Value of B is "+b+"</h2>");
+            document.write("<h2 style = 'color:DodgerBlue'> The Value of C is "+c+"</h2>");
+
+            if(a>b){
+                if(a>c){
+                        console.log("A is Big.");
+                        document.write("<h2 style = 'color:Red'> A is Big.</h2>");
+                        alert("A is Big");
+                    }
+                    else{
+                        console.log("C is Big.");
+                        document.write("<h2 style = 'color:Red'> C is Big.</h2>");
+                        alert("C is Big");
+                    }
+                }
+            else if(b>c){
+                    console.log("B is Big.");
+                    document.write("<h2 style = 'color:Red'> B is Big.</h2>");
+                    alert("B is Big");
+                }
+            else{
+                console.log("C is Big.");
+                document.write("<h2 style = 'color:Red'> C is Big.</h2>");
+                alert("C is Big");
+            }
+        }
+        greatest();
+        </script>
+    </center>
+    <hr>
+    <hr>

@@ -1,0 +1,45 @@
+<center>
+    <h1>Task 8: Basic Calculator (Simple Function)</h1>
+    <hr>
+    <hr>
+    
+        <script type="text/javascript">
+            function sum(){
+
+            var calc = (prompt('Enter operator ( either +, -, * or / ): '));
+            var a = parseInt(prompt("Enter value of A: "));
+            var b = parseInt(prompt("Enter value of B: "));
+
+            switch(calc){
+                case "+":
+                    c = a + b;
+                    console.log("a + b = " +c);
+                    document.write("<h2 style = 'color:violet'>Addition of a + b = "+c+"</h2>");
+                    alert("a + b = " +c);
+                break;
+                case "-":
+                    e = a - b;
+                    console.log("a - b = " +e);
+                    document.write("<h2 style = 'color:violet'>Subtraction of a - b = "+e+"</h2>");
+                    alert("a - b = " +e);
+                break;
+                case "*":
+                    f = a * b;
+                    console.log("a * b = " +f);
+                    document.write("<h2 style = 'color:violet'>Multiplication of a * b = "+f+"</h2>");
+                    alert("a * b = " +f);
+                break;
+                case "/":
+                    g = a / b;
+                    console.log("a / b = " +g);
+                    document.write("<h2 style = 'color:violet'>Division of a / b = "+g+"</h2>");
+                    alert("a / b = " +g);
+                break;
+            }
+            }
+            sum();
+        </script>
+    </center>
+    <hr>
+    <hr>
+    

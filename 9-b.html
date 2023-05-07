@@ -1,0 +1,37 @@
+<center>
+    <h1>Task 9: Angles of a triangle (No Return with parameter)</h1>
+    <hr>
+    <hr>
+        <script type="text/javascript">
+            var a = parseInt(prompt("Enter Value of A: "));
+            var b = parseInt(prompt("Enter Value of B: "));
+            var c = parseInt(prompt("Enter Value of C: "));
+
+            console.log(a);
+            console.log(b);
+            console.log(c);
+
+            function angle(a,b,c){
+
+            document.write("<h2 style = 'color:DarkCyan'> The Value of A is "+a+"</h2>");
+            document.write("<h2 style = 'color:CornflowerBlue'> The Value of B is "+b+"</h2>");
+            document.write("<h2 style = 'color:DodgerBlue'> The Value of C is "+c+"</h2>");
+
+            var sum = a + b + c; 
+        
+            if(sum == 180){
+                console.log("Triangle is valid");
+                document.write("<h2 style = 'color:violet'>Triangle is valid</h2>");
+                alert("Triangle is valid");
+            }
+            else{
+                console.log("Triangle is not valid");
+                document.write("<h2 style = 'color:violet'>Triangle is not valid</h2>");
+                alert("Triangle is not valid");
+            }
+            }
+            angle(a,b,c);
+        </script>
+    </center>
+<hr>
+<hr>

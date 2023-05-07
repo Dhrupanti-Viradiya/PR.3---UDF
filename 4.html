@@ -1,0 +1,48 @@
+<center>
+    <h1>Task 3: Greatest Number (No return with parameter)</h1>
+    <hr>
+    <hr>
+        <script type="text/javascript">
+            var a = parseInt(prompt("Enter Value of A: "));
+            var b = parseInt(prompt("Enter Value of B: "));
+            var c = parseInt(prompt("Enter Value of C: "));
+            var d = parseInt(prompt("Enter Value of D: "));
+
+            console.log(a);
+            console.log(b);
+            console.log(c);
+            console.log(d);
+
+            function greatest(a,b,c,d){   
+            
+            document.write("<h2 style = 'color:DarkCyan'> The Value of A is "+a+"</h2>");
+            document.write("<h2 style = 'color:CornflowerBlue'> The Value of B is "+b+"</h2>");
+            document.write("<h2 style = 'color:DodgerBlue'> The Value of C is "+c+"</h2>");
+            document.write("<h2 style = 'color:MidnightBlue'> The Value of D is "+d+"</h2>");
+
+            if(a>b && a>c && a>d){
+                console.log("A is Big.");
+                document.write("<h2 style = 'color:Red'> A is Big.</h2>");
+                alert("A is Big");
+            }
+            else if(b>a && b>c && b>d){
+                console.log("B is Big.");
+                document.write("<h2 style = 'color:Red'> B is Big.</h2>");
+                alert("B is Big");
+            }
+            else if(c>a && c>b && c>d){
+                console.log("C is Big.");
+                document.write("<h2 style = 'color:Red'> C is Big.</h2>");
+                alert("C is Big");
+            }
+            else{
+                console.log("D is Big.");
+                document.write("<h2 style = 'color:Red'> D is Big.</h2>");
+                alert("D is Big");
+            }
+            }
+            greatest(a,b,c,d);
+        </script>
+    </center>
+    <hr>
+<hr>
